@@ -132,6 +132,7 @@ nav {
 
 .nav-links {
     display: flex;
+    align-items: center;
     gap: 2.5rem;
 }
 
@@ -779,6 +780,7 @@ nav {
         transform: translateY(-5px) rotate(-8deg) scale(1);
     }
 }
+
 /* Dangling Employee Badge Effect */
 .about-image {
     perspective: 1000px;
@@ -826,8 +828,15 @@ nav {
 }
 
 @keyframes sway {
-    0%, 100% { transform: rotate(3deg); }
-    50% { transform: rotate(-3deg); }
+
+    0%,
+    100% {
+        transform: rotate(3deg);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
 }
 
 .badge-card:hover {
