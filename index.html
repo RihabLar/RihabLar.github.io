@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rihab Laroussi | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <header>
+        <nav>
+            <div class="logo">RL.</div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact" class="btn-nav">Contact</a>
+                </div>
+                <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">Hey, I am <span class="highlight">Rihab Laroussi</span></h1>
+                <p class="fade-in delay-1">Robotics & AI Research Engineer</p>
+                <div class="hero-btns fade-in delay-2">
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                    <a href="#" class="btn-outline">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll to explore</p>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="reveal section-padding">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <div class="image-wrapper glass">
+                            <i class="fas fa-robot floating-robot"
+                                style="font-size: 8rem; color: var(--secondary-color);"></i>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            I am an Erasmus Mundus Joint Master’s Scholar in Intelligent Field Robotic Systems (IFROS),
+                            specializing in perception and autonomous navigation. My background in Electrical
+                            Engineering, combined with my master’s focus at the University of Girona and Eötvös Loránd
+                            University, allows me to bridge the gap between hardware integration and advanced AI
+                            algorithms.
+                        </p>
+                        <p>
+                            I have significant experience in developing robust navigation stacks, training
+                            edge-optimized deep learning models, and implementing complex robot-manipulator
+                            coordination. I am driven by the challenge of making robots perceive and interact with world
+                            in a reliable, intelligent way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="reveal section-padding">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-list">
+                    <!-- Masters -->
+                    <div class="edu-card glass">
+                        <div class="edu-year">2024 - Present</div>
+                        <div class="edu-info">
+                            <h3>Erasmus Mundus Joint Master’s in Intelligent Field Robotic Systems (IFROS)</h3>
+                            <p class="university">University of Girona (Spain) & Eötvös Loránd University (Hungary)</p>
+                            <div class="edu-details">
+                                <p><strong>Specialization:</strong> Advanced Robot Perception, Computer Vision, Deep
+                                    Learning, and Autonomous Navigation. Focused on both classical probabilistic
+                                    robotics and modern deep learning architectures.</p>
+                                <p class="thesis-highlight"><strong>Thesis:</strong> AI-Enhanced Navigation and Digital
+                                    Twin Simulation for Autonomous Agricultural Rovers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bachelors -->
+                    <div class="edu-card glass">
+                        <div class="edu-year">2019 - 2023</div>
+                        <div class="edu-info">
+                            <h3>B.Sc. in Electrical and Electronics Engineering</h3>
+                            <p class="university">Middle East Technical University (METU), Ankara, Turkey</p>
+                            <div class="edu-details">
+                                <p>Concentration in embedded systems, digital signal processing, and communication
+                                    networks.</p>
+                                <p class="thesis-highlight"><strong>Thesis:</strong> UAV Forest Fire Extinguishing
+                                    Quadcopter – Designed and prototyped a fully functional monitor-and-suppress drone
+                                    with customized PID control.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="reveal section-padding">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="experience-list">
+                    <!-- Agrikola AI / Thesis Project -->
+                    <div class="exp-card glass">
+                        <div class="exp-header">
+                            <div class="company-info">
+                                <h3>Robotics Research Engineer (Master's Thesis)</h3>
+                                <p class="company-name">Agrikola AI | Barcelona, Spain</p>
+                            </div>
+                            <div class="exp-date">Jan 2026 - Present</div>
+                        </div>
+
+                        <div class="thesis-narrative">
+                            <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">The Mission: Autonomous
+                                Navigation in GNSS-Denied Environments</h4>
+                            <p class="exp-intro" style="margin-bottom: 2rem;">Develop a fully autonomous agricultural
+                                rover capable of navigating dense crop environments without GPS, using vision-based
+                                perception and real-time safety constraints.</p>
+
+                            <div class="thesis-blocks"
+                                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                                <div class="thesis-col">
+                                    <h5
+                                        style="color: var(--accent-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                                        <i class="fas fa-microchip"></i> Architecture & Pipeline
+                                    </h5>
+                                    <ul class="exp-bullets">
+                                        <li><strong>Pipeline:</strong> OAK-D RGB-D perception → ENet semantic
+                                            segmentation → Nav2 traversability planning → Wagus motor control.</li>
+                                        <li><strong>Navigation:</strong> Replaced Pure Pursuit with ROS 2 Nav2;
+                                            implemented FSM for row transitions and blind-driving recovery.</li>
+                                        <li><strong>Perception:</strong> Trained ENet models for real-time crop-row
+                                            segmentation on embedded hardware.</li>
+                                    </ul>
+                                </div>
+                                <div class="thesis-col">
+                                    <h5
+                                        style="color: var(--accent-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                                        <i class="fas fa-vr-cardboard"></i> Sim-to-Real Gap
+                                    </h5>
+                                    <ul class="exp-bullets">
+                                        <li><strong>Dual Digital Twins:</strong> Gazebo for ROS 2 validation; NVIDIA
+                                            Isaac Sim for domain randomization.</li>
+                                        <li><strong>Synthetic Data:</strong> Generated diverse procedural farm
+                                            environments (lighting, terrain, textures) to overcome data scarcity.</li>
+                                    </ul>
+                                </div>
+                                <div class="thesis-col">
+                                    <h5
+                                        style="color: var(--accent-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                                        <i class="fas fa-shield-alt"></i> Safety & Evaluation
+                                    </h5>
+                                    <ul class="exp-bullets">
+                                        <li><strong>Safety Metrics:</strong> Rut detection and lateral slope estimation
+                                            from point clouds.</li>
+                                        <li><strong>Evaluation:</strong> IoU (segmentation) and Cross-Track Error (CTE)
+                                            for navigation accuracy.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VICOROB -->
+                    <div class="exp-card glass">
+                        <div class="exp-header">
+                            <div class="company-info">
+                                <h3>Research Intern</h3>
+                                <p class="company-name">VICOROB Laboratory, University of Girona | Girona, Spain</p>
+                            </div>
+                            <div class="exp-date">Jun 2025 – Aug 2025</div>
+                        </div>
+                        <div class="exp-subprojects">
+                            <div class="sub-project">
+                                <h4>Project 1: Side-Scan Sonar Image Segmentation</h4>
+                                <p>Adapted and evaluated SonarRanDiff, a diffusion-based segmentation method, comparing
+                                    it against ViT baselines for Catalan coast sonar datasets. Developed a reproducible
+                                    comparison pipeline for underwater image analysis.</p>
+                            </div>
+                            <div class="sub-project">
+                                <h4>Project 2: Hyperspectral Imaging for Food Safety</h4>
+                                <p>Developed pre- and post-processing pipelines for a Vision Transformer-based
+                                    contaminant detection system in hyperspectral pork images. Improved classification
+                                    reliability through noise reduction and spectral filtering.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="reveal section-padding">
+            <div class="container">
+                <h2 class="section-title">Technical Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- 1. Fruit Recycling Robot (FLAGSHIP) -->
+                    <div class="project-card glass large">
+                        <div class="project-img-wrapper">
+                            <img src="assets/fruit_robot.gif" alt="Fruit Recycling Robot">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Autonomous Fruit Recycling Mobile Manipulator</h3>
+                            <p class="project-desc">
+                                Led the full-stack development of an autonomous sorting system on an <strong>AgileX
+                                    Scout 2.0 + xArm6</strong> platform.
+                                Integrated <strong>YOLOv11</strong> for real-time fruit classification and engineered a
+                                robust <strong>Finite State Machine (FSM)</strong> to coordinate complex mobile base
+                                navigation with 6-DOF manipulative tasks.
+                                Optimized the pipeline for high-precision bin sorting in dynamic laboratory
+                                environments.
+                            </p>
+                            <p class="tech-stack">ROS, YOLOv11, Python, OpenCV, xArm6, Scout 2.0</p>
+                            <a href="https://github.com/RihabLar/Autonomous_Recycling_Robot" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 2. Industrial Manipulation Suite -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/robot_manipulation.gif" alt="Industrial Manipulation">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Industrial Robot Manipulation Projects</h3>
+                            <p class="project-desc">
+                                <strong>Classification:</strong> Automated cylinder sorting on a Stäubli TS60 using VAL3
+                                and inductive sensors. <br>
+                                <strong>Assembly:</strong> Coordinated cylinder-piston assembly on a Stäubli TX60 with
+                                synchronized presence sensing. <br>
+                                <strong>Polishing:</strong> Implemented force-controlled surface polishing on a UR3e
+                                using URScript for irregular trajectories.
+                            </p>
+                            <p class="tech-stack">VAL3, URScript, Force Control, Sensor Fusion</p>
+                            <a href="https://github.com/RihabLar/Robot-Manipulation" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 3. Deep Learning Projects -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/deep_learning_suite.gif" alt="Deep Learning Perception">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Deep Learning Perception Suite</h3>
+                            <p class="project-desc">
+                                Engineered advanced Computer Vision models for academic research: <strong>Image
+                                    Captioning</strong> using ResNet-50 + LSTM with Attention;
+                                <strong>Image Colorization</strong> evaluating CNN vs FCN architectures; and precise
+                                <strong>Object Detection</strong> tasks.
+                            </p>
+                            <p class="tech-stack">PyTorch, YOLO, ResNet, Attention Mechanism, WandB</p>
+                            <a href="https://github.com/RihabLar/Deep-Network-Development-" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 4. NuScenes Fusion (GNSS-INS Processing) -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/gnss_icp.gif" alt="NuScenes Fusion">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Multi-Modal Perception (NuScenes)</h3>
+                            <p class="project-desc">
+                                Engineered a high-precision perception and processing pipeline for autonomous vehicle
+                                datasets.
+                                Fused global LiDAR point clouds with high-fidelity camera data and GNSS-INS positioning
+                                for 3D environment reconstruction.
+                            </p>
+                            <p class="tech-stack">Open3D, Python, NuScenes SDK, GNSS-INS, 3D Geometry</p>
+                            <a href="https://github.com/RihabLar/GNSS-INS-Point-Cloud-Processing-" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 5. ADAS Lane Keep -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/lane_keep.gif" alt="Lane Keep Assist">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>ADAS Lane Keep Assist</h3>
+                            <p class="project-desc">
+                                Implemented a real-time lane detection system (~25 FPS) using classical Computer Vision
+                                and sliding window polynomial fitting.
+                                Designed the system to be robust against varying lighting, rain, and perspective
+                                distortion.
+                            </p>
+                            <p class="tech-stack">OpenCV, Python, Perspective Transform, NumPy</p>
+                            <a href="https://github.com/RihabLar/ADAS-Lane-Keeping-Assist" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 6. ArUco AR -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/aruco_markers.png" alt="ArUco Markers">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>ArUco Vision & Augmented Reality</h3>
+                            <p class="project-desc">
+                                Developed a comprehensive C++ Computer Vision suite for real-time ArUco marker
+                                detection, camera calibration, and Augmented Reality (AR) pose estimation.
+                                Implemented 3D object rendering on physical markers with precise coordinate transforms
+                                using OpenCV.
+                            </p>
+                            <p class="tech-stack">C++, OpenCV, Pose Estimation, Camera Calibration</p>
+                            <a href="https://github.com/RihabLar/ArUcoMarkers" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 7. RL Q-Learning -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/rl_project.png" alt="Reinforcement Learning">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Reinforcement Learning: Q-Learning Policy</h3>
+                            <p class="project-desc">
+                                Implemented a model-free Reinforcement Learning algorithm (Q-learning) for autonomous
+                                pathfinding in a 2D environment.
+                                Targeted epsilon-greedy exploration and parameter tuning (alpha, gamma) for efficient
+                                policy convergence.
+                            </p>
+                            <p class="tech-stack">Python, NumPy, Matplotlib, Q-Learning</p>
+                            <a href="https://github.com/RihabLar/Robot-Planning" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 8. Lidar Exploration -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/lidar_exploration.gif" alt="LiDAR Exploration">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>LiDAR Frontier Exploration</h3>
+                            <p class="project-desc">
+                                Developed an autonomous explorer utilizing 2D LiDAR and RRT* planning.
+                                Optimized target selection using entropy-based information gain for maximal environment
+                                coverage in minimized time.
+                            </p>
+                            <p class="tech-stack">ROS, RRT*, LiDAR, C++, Python</p>
+                            <a href="https://github.com/RihabLar/Lidar-Based-Exploration" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 9. GNSS-ICP Fusion Mapping -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/lidar_registration.png" alt="GNSS-ICP Fusion">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>GNSS-ICP Fusion Mapping</h3>
+                            <p class="project-desc">
+                                Developed a high-precision mapping system using Iterative Closest Point (ICP) for 2D
+                                scan registration and map alignment.
+                                Integrated RTK-corrected GNSS positions to achieve global consistency in sequential
+                                point cloud mapping.
+                            </p>
+                            <p class="tech-stack">Open3D, Python, ICP, GNSS, LiDAR</p>
+                            <a href="https://github.com/RihabLar/Lidar-2D-Registration-using-2DICP" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 10. EKF SLAM -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/ekf_slam.gif" alt="EKF SLAM">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Feature-Based EKF SLAM</h3>
+                            <p class="project-desc">
+                                Engineered a SLAM system fusing wheel odometry, IMU data, and range-only ArUco
+                                measurements.
+                                Successfully estimated robot trajectory and updated landmark maps in real-time within
+                                RViz.
+                            </p>
+                            <p class="tech-stack">ROS, EKF, Python, RViz, ArUco</p>
+                            <a href="https://github.com/RihabLar/FEKFSLAM-using-Range-Only-ArUco-s" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- 11. Kinematic Control -->
+                    <div class="project-card glass">
+                        <div class="project-img-wrapper">
+                            <img src="assets/kinematic_control.gif" alt="Kinematic Control">
+                            <div class="img-overlay"><i class="fab fa-github"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Kinematic Control System</h3>
+                            <p class="project-desc">
+                                Developed a robust kinematic control system for mobile platforms, integrating real-time
+                                differential drive odometry and velocity profiling for waypoint following and trajectory
+                                tracking.
+                            </p>
+                            <p class="tech-stack">C++, Python, Robot Kinematics, Control Theory</p>
+                            <a href="https://github.com/RihabLar/Kinematic-Control-System-" target="_blank"
+                                class="project-link">Source Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="reveal section-padding">
+            <div class="container">
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="skill-category glass" style="text-align: center;">
+                    <div class="skill-tags" style="justify-content: center; gap: 1.2rem;">
+                        <span>Python</span><span>C++</span><span>C</span>
+                        <span>ROS 1 &
+                            2</span><span>MoveIt</span><span>RViz</span><span>Gazebo</span><span>Stonefish</span>
+                        <span>PyTorch</span><span>TensorFlow</span><span>OpenCV</span><span>NumPy</span><span>Pandas</span>
+                        <span>MATLAB</span><span>Mission Planner</span>
+                        <span>Raspberry Pi</span><span>AVR ATmega128</span><span>Embedded Linux</span>
+                        <span>Cisco Packet Tracer</span><span>EVE-NG</span>
+                        <span>Git</span><span>Docker</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>I am seeking professional opportunities in Autonomous Robotics, Intelligent Systems, and Computer
+                        Vision. Let's build something remarkable.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rihab-laroussi-0011b9209/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/RihabLar" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:lar.rihab@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-secondary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
